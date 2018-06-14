@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>puzzle</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="/css/stylesheet.css" />
+</head>
+<body style="text-align: center">
+
+<h1>Puzzle</h1>
+
+<a style="font-size: 24px" href="/puzzleNew">New game</a>
+<div th:utext='${@puzzleController.printField()}'/>
+
+<div style="font-size:20px;font-weight: bold;color:white;" th:utext='${@puzzleController.solved()}'/>
+
+<div style="font-size:20px;font-weight: bold;color:white;" th:utext='${@puzzleController.score()}'/>
+
+
+</body>
+</html>

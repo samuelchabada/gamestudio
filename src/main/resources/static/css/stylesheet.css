@@ -1,0 +1,142 @@
+/**
+ * Copyright (c) 2014 Oracle and/or its affiliates. All rights reserved.
+ *
+ * You may not modify, use, reproduce, or distribute this software except in
+ * compliance with  the terms of the License at:
+ * http://java.net/projects/javaeetutorial/pages/BerkeleyLicense
+ */
+ html {
+background: url("/Images/game.jpg")no-repeat center center fixed;
+  background-color:#000000}
+
+
+#top {
+    position: relative;
+    background-color: #036fab;
+    color: white;
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+}
+body {
+    font-size: 10px;
+    font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Helvetica CE", sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, "Arial CE", "Helvetica CE", sans-serif;
+    font-size:  36px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #045491;
+}
+
+h2 {
+    font-family: Arial, "Arial CE", "Helvetica CE", sans-serif;
+    font-size:  16px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: red;
+}
+
+a:link, a:visited {
+    text-align: center;
+    font-size:  10px;
+    color: red;
+    font-weight : bold;
+    text-decoration: none;
+}
+
+a:link:hover, a:visited:hover  {
+  text-align: center;
+  width:1190px;
+  font-size: 10px;
+  color: #045491;
+  font-weight : bold;
+  text-decoration : underline;
+}
+
+.center_content {
+    position: relative;
+    background-color: #e0e0e0;
+    padding: 5px;
+}
+
+.error-message {
+  color: #d20005;
+  font-family: 'New Century Schoolbook', serif;
+  font-style: oblique;
+  text-decoration: overline;
+}
+
+.list-background {
+  background-color: #ffffff;
+  font-family: sans-serif;
+  font-size: 12pt;
+  padding: 10px;
+  width: 100%;
+}
+
+.list-caption {
+  font-family: sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+
+.list-column-center {
+  text-align: center;
+  width: 15%;
+}
+
+.list-column-left {
+  text-align: left;
+  width: 70%;
+}
+
+.list-column-right {
+  text-align: right;
+  width: 15%;
+}
+
+.list-footer {
+  background-color: #A5A5A5;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.list-header {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
+.list-row-even {
+}
+
+.list-row-odd {
+  background-color: #eaf1f8;
+}
+
+.minetable {
+    border: 5px solid grey;
+    border-collapse: collapse;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.puzzletable{
+    border-collapse: collapse;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+
+td {
+    padding: 0;
+}

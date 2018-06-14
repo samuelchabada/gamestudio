@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>mines</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="/css/stylesheet.css" />
+</head>
+<body style="text-align: center">
+
+<h1>Mines</h1>
+
+<a style="font-size: 20px;" href="/minesNew">New game</a>
+<br>
+</br>
+<a style="font-size: 20px;" href="/mark" th:text='${@minesController.marking ? "Mark Mode" : "Open Mode"}'/>
+
+<div style="font-size:16px;font-weight: bold;color:white;width:1190px;" th:utext='${@minesController.marked()}'/>
+
+<div th:utext='${@minesController.printField()}'/>
+
+<div style="font-size:20px;font-weight: bold;width:1190px;" th:utext="${@minesController.gameState}"/>
+
+<div style="font-size:20px;font-weight: bold;color:white;" th:utext='${@minesController.score()}'/>
+
+<!--<form>-->
+    <!--First name:<br>-->
+    <!--<input type="text" name="name">-->
+
+    <!--<br>-->
+    <!--<input type="submit" value="Submit">-->
+<!--</form>-->
+
+</body>
+</html>
