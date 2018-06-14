@@ -24,8 +24,8 @@ import static sk.tuke.gamestudio.game.mines.ConnectionProperties.URL;
 @Scope(WebApplicationContext.SCOPE_SESSION)
 public class MinesController {
     private Field field = new Field(9, 9, 1);
-    private static final String SELECT = "SELECT date, score FROM minesplayer";
-    private static final String INSERT = "INSERT INTO minesplayer (date, score) VALUES (?, ?)";
+    private static final String SELECT = "SELECT date, time_of_game score FROM minesplayer";
+    private static final String INSERT = "INSERT INTO minesplayer (date, score) VALUES (?, ?, ?)";
 
     private boolean marking;
 
